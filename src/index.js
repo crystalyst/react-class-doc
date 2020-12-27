@@ -1,11 +1,12 @@
+import { CssBaseline } from '@material-ui/core';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDOM from 'react-dom'; // react - 어떤 플랫폼이라도 모두 사용될 수 있음. 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <CssBaseline />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
